@@ -19,11 +19,11 @@ namespace RandomSquare
                 randomNumberList.Add(randomNumber);
                 squaredNumberList.Add(randomNumber * randomNumber);
             }
-            Console.WriteLine($"Random numbers: {String.Join(", ", randomNumberList)}");
+            Console.WriteLine($"Random numbers: {string.Join(", ", randomNumberList)}");
 
             Console.WriteLine();
 
-            Console.WriteLine($"Squared random numbers: {String.Join(", ", squaredNumberList)}");
+            Console.WriteLine($"Squared random numbers: {string.Join(", ", squaredNumberList)}");
 
             Console.WriteLine();
 
@@ -37,7 +37,7 @@ namespace RandomSquare
                 }
             }
 
-            Console.WriteLine($"Even squared numbers: {String.Join(", ", evenSquaredNumbers)}");
+            Console.WriteLine($"Even squared numbers: {string.Join(", ", evenSquaredNumbers)}");
         }
     }
 }
